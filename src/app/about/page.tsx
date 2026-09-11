@@ -28,7 +28,7 @@ export async function generateMetadata() {
 }
 
 export default function About() {
-  const structure = [
+  const structure: { title: string; display: boolean; items: string[] }[] = [
     {
       title: about.intro.title,
       display: about.intro.display,
