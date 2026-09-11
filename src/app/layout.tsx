@@ -44,9 +44,10 @@ export default async function RootLayout({
         fonts.code.variable,
       )}
     >
-      <head>
+      <head suppressHydrationWarning>
         <script
           id="theme-init"
+          suppressHydrationWarning
           dangerouslySetInnerHTML={{
             __html: `
               (function() {
