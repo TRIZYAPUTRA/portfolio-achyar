@@ -104,7 +104,7 @@ const about: About = {
     description: (
       <>
         {person.firstName} adalah seorang software engineer, web developer, dan data analyst. Memiliki ketertarikan pada pengembangan software, website, 
-        serta pengolahan dan analisis data untuk membantu menyelesaikan berbagai kebutuhan dan permasalahan secara sederhana dan efektif. &nsbp; 
+        serta pengolahan dan analisis data untuk membantu menyelesaikan berbagai kebutuhan dan permasalahan secara sederhana dan efektif. &nbsp; 
         {person.firstName} juga tertarik pada bagaimana teknologi dapat digunakan untuk membangun solusi yang fungsional, mudah digunakan, dan sesuai dengan kebutuhan.
       </>
     ),

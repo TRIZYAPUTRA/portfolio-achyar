@@ -1,12 +1,15 @@
-import "@once-ui-system/core/css/styles.css";
-import "@once-ui-system/core/css/tokens.css";
-import "@/resources/custom.css";
+// // import "@once-ui-system/core/css/styles.css";
+// import "@once-ui-system/core/css/tokens.css";
+// import "@/resources/custom.css";
 
 import classNames from "classnames";
 
 import {
   Background,
-  Column,
+  Column,// import "@once-ui-system/core/css/styles.css";
+// import "@once-ui-system/core/css/tokens.css";
+// import "@/resources/custom.css";
+
   Flex,
   Meta,
   opacity,
