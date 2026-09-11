@@ -73,7 +73,7 @@ const home: Home = {
         </Text>
       </Row>
     ),
-    href: "linkedin.com/in/dimas-achyar-trizyaputra",
+    href: "https://linkedin.com/in/dimas-achyar-trizyaputra",
   },
   subline: (
     <>
@@ -103,9 +103,9 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        {person.firstName} is a {person.location.split("/")[1]?.replace("_", " ")}-based {person.role.toLowerCase()} with a passion for transforming complex challenges
-        into simple, elegant design solutions. Their work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        {person.firstName} adalah seorang software engineer, web developer, dan data analyst yang berbasis di Jakarta. Memiliki ketertarikan pada pengembangan software, website, 
+        serta pengolahan dan analisis data untuk membantu menyelesaikan berbagai kebutuhan dan permasalahan secara sederhana dan efektif. 
+        {person.firstName} juga tertarik pada bagaimana teknologi dapat digunakan untuk membangun solusi yang fungsional, mudah digunakan, dan sesuai dengan kebutuhan.
       </>
     ),
   },
