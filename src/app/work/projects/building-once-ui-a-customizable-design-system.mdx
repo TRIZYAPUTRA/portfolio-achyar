@@ -1,5 +1,5 @@
 ---
-title: "Building Once UI, a Customizable Design System"
+title: "Sistem Rekomendasi Algoritma untuk Penelitian Menggunakan Cosine Similarity"
 publishedAt: "2026-06-07"
 summary: "Platform berbasis web yang dirancang untuk membantu peneliti menentukan algoritma yang relevan berdasarkan kemiripan topik penelitian. Sistem memanfaatkan TF-IDF untuk mengubah teks menjadi representasi numerik dan Cosine Similarity untuk mengukur tingkat kemiripan antara topik penelitian dengan kumpulan artikel yang tersedia."
 images:
@@ -15,26 +15,26 @@ team:
 
 ## Overview
 
-Development of a flexible and highly customizable design system using Next.js for front-end and Figma for design collaboration.
+Sistem ini dikembangkan untuk membantu peneliti memilih algoritma yang paling relevan berdasarkan kemiripan topik penelitian. Prosesnya dimulai dengan mengubah judul dan abstrak penelitian menjadi representasi numerik menggunakan TF-IDF, lalu membandingkan dengan kumpulan artikel yang tersedia menggunakan Cosine Similarity.
 
 ## Key Features
 
-- **Component Library**: Built a set of modular, reusable UI components using React and styled-components in Next.js, focusing on accessibility and responsiveness.
-- **Theming and Customization**: Integrated a theming system that allows easy switching and customization of color palettes, typography, and layout styles using CSS variables and Figma tokens.
-- **Figma Integration**: Collaborated closely with designers by setting up a shared design library in Figma. This library was synchronized with the codebase, ensuring design handoffs were seamless and that design tokens remained consistent across both platforms.
-- **Documentation and Usage Guidelines**: Developed comprehensive documentation with Storybook to showcase components, usage patterns, and best practices, ensuring the design system is easy to adopt by other teams.
+- **Analisis Topik Penelitian**: Mengolah teks penelitian menjadi vektor numerik agar pola dan semantik antar topik dapat dibandingkan secara objektif.
+- **Rekomendasi Algoritma**: Menentukan algoritma yang paling sesuai berdasarkan tingkat kemiripan antar topik penelitian dan dataset yang tersedia.
+- **Ranking Hasil**: Menampilkan hasil perbandingan dalam urutan yang mudah dipahami agar penggunanya dapat menilai kandidat algoritma dengan cepat.
+- **Antarmuka Berbasis Web**: Menyediakan pengalaman penggunaan yang lebih interaktif untuk memudahkan pencarian dan evaluasi rekomendasi.
 
 ## Technologies Used
 
-- **Next.js**: For fast, server-rendered React applications.
-- **Figma**: For creating and managing design assets and prototypes.
-- **Styled-Components**: For styling React components with a modular, themable approach.
-- **Storybook**: For building an interactive, documented component library.
+- **Python**: Untuk pemrosesan data teks dan implementasi model perhitungan similarity.
+- **scikit-learn**: Menggunakan TF-IDF dan Cosine Similarity untuk proses analisis kemiripan.
+- **Pandas dan NumPy**: Untuk pengelolaan data dan operasi numerik.
+- **Next.js**: Untuk membangun antarmuka web yang lebih modern dan mudah diakses.
 
 ## Challenges and Learnings
 
-One key challenge was balancing the need for flexibility with the desire to maintain design consistency. The solution involved creating well-defined design tokens and establishing clear guidelines for when and how components could be customized. Additionally, setting up effective collaboration workflows between designers and developers using Figma and Git was a learning experience that greatly improved the process.
+Tantangan utama dalam pengembangan sistem ini adalah memastikan representasi text yang akurat dan konsisten agar hasil similarity tetap relevan. Selain itu, kebutuhan untuk membandingkan beberapa topik penelitian dengan dataset yang beragam menuntut proses preprocessing yang cermat agar hasil rekomendasi lebih stabil dan dapat dipertanggungjawabkan.
 
 ## Outcome
 
-The design system is now actively used across multiple projects, leading to faster development cycles, fewer design inconsistencies, and improved collaboration between design and development teams. It has become a foundation for scaling our products efficiently while ensuring a cohesive user experience.
+Sistem ini menjadi alat yang membantu peneliti dan mahasiswa dalam memilih algoritma yang lebih tepat sebelum memulai eksperimen atau pengembangan lebih lanjut. Dengan pendekatan berbasis data dan analisis text similarity, proses pengambilan keputusan menjadi lebih cepat, lebih terarah, dan lebih berbasis bukti.
