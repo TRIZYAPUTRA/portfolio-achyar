@@ -6,11 +6,11 @@ const person: Person = {
   lastName: "Achyar Trizyaputra",
   name: `Dimas Achyar Trizyaputra`,
   role: "Software Engineer, Web Developer, Data Analyst",
-  avatar: "/images/avatar2.webp",
+  avatar: "/images/avatar.webp",
   email: "achyartrizyaputra@gmail.com",
   location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: [ "Bahasa Indonesia", "English"], // optional: Leave the array empty if you don't want to display languages
-  locale: "en", // BCP 47 language tag for the HTML lang attribute, e.g., 'en', 'ja', 'zh-TW'
+  locale: "en", // BCP 47 language tafavicong for the HTML lang attribute, e.g., 'en', 'ja', 'zh-TW'
 };
 
 const newsletter: Newsletter = {
