@@ -6,10 +6,7 @@ import classNames from "classnames";
 
 import {
   Background,
-  Column,// import "@once-ui-system/core/css/styles.css";
-// import "@once-ui-system/core/css/tokens.css";
-// import "@/resources/custom.css";
-
+  Column,
   Flex,
   Meta,
   opacity,
