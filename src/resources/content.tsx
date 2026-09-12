@@ -40,7 +40,7 @@ const social: Social = [
     name: "Instagram",
     icon: "instagram",
     link: "https://www.instagram.com/iam_zilxvx/",
-    essential: false,
+    essential: true,
   },
   {
     name: "Email",
@@ -109,41 +109,33 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "CV Rozitech Multimedia Indonesia",
+        timeframe: "Aug 2025 - Oct 2025",
+        role: "Teknisi Jaringan (Magang)",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Membantu instalasi, konfigurasi, dan pemeliharaan perangkat keras jaringan, termasuk router,
+            switch, access point, dan perangkat periferal.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
-          </>,
-        ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.png",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
-      {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
-        achievements: [
-          <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Memasang, menarik, dan melakukan terminasi kabel jaringan (UTP dan serat optik) sesuai
+            standar instalasi industri.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Melakukan pemecahan masalah jaringan untuk mengatasi masalah konektivitas perangkat dan
+            kesalahan konfigurasi.
+          </>,
+          <>
+            Mendukung implementasi dan konfigurasi jaringan LAN dan WLAN serta memantau kinerja
+            jaringan untuk memastikan konektivitas yang stabil.
+          </>,
+          <>
+            Berpartisipasi dalam penerapan dan konfigurasi sistem CCTV berbasis IP, termasuk alokasi
+            alamat IP, pengujian konektivitas, dan integrasi jaringan.
+          </>,
+          <>
+            Menjaga dokumentasi jaringan secara akurat, termasuk diagram topologi, catatan konfigurasi,
+            dan laporan pemeliharaan untuk evaluasi teknis.
           </>,
         ],
         images: [],
@@ -155,12 +147,12 @@ const about: About = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Universitas Muhammadiyah Gresik",
+        description: <>Mahasiswa Teknik Informatika yang sedang menempuh pendidikan dan mengembangkan kemampuan di bidang teknologi informasi.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "SMKN 1 Lamongan",
+        description: <>Lulus dengan jurusan Multimedia, mempelajari desain, editing, dan dasar-dasar teknologi komputer.</>,
       },
     ],
   },
@@ -169,36 +161,22 @@ const about: About = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "React",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>Membangun antarmuka pengguna yang interaktif, responsif, dan mudah digunakan dengan React.</>
         ),
         tags: [
           {
-            name: "Figma",
-            icon: "figma",
+            name: "React",
+            icon: "react",
           },
         ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.png",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.png",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },
       {
-        title: "Next.js",
+        title: "JavaScript & Node.js",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>Mengembangkan logika aplikasi, API, dan proses bisnis di sisi frontend maupun backend dengan JavaScript dan Node.js.</>
         ),
         tags: [
           {
@@ -206,16 +184,28 @@ const about: About = {
             icon: "javascript",
           },
           {
+            name: "Node.js",
+            icon: "nodejs",
+          },
+        ],
+        images: [],
+      },
+      {
+        title: "Next.js & MongoDB",
+        description: (
+          <>Menyusun aplikasi modern berbasis Next.js dengan database MongoDB untuk kebutuhan produk dan data yang scalable.</>
+        ),
+        tags: [
+          {
             name: "Next.js",
             icon: "nextjs",
           },
           {
-            name: "Supabase",
-            icon: "supabase",
+            name: "MongoDB",
+            icon: "mongodb",
           },
         ],
-        // optional: leave the array empty if you don't want to display images
-        
+        images: [],
       },
     ],
   },
@@ -247,46 +237,16 @@ const gallery: Gallery = {
   // Images by https://lorant.one
   // These are placeholder images, replace with your own
   images: [
-    {
-      src: "/images/gallery/horizontal-1.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/vertical-4.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/horizontal-3.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/vertical-1.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/vertical-2.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/horizontal-2.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/horizontal-4.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/vertical-3.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
+    { src: "/images/gallery/img1.webp", alt: "image", orientation: "horizontal" },
+    { src: "/images/gallery/img2.webp", alt: "image", orientation: "horizontal" },
+    { src: "/images/gallery/img3.webp", alt: "image", orientation: "horizontal" },
+    { src: "/images/gallery/img4.webp", alt: "image", orientation: "horizontal" },
+    { src: "/images/gallery/img5.webp", alt: "image", orientation: "horizontal" },
+    { src: "/images/gallery/img6.webp", alt: "image", orientation: "horizontal" },
+    { src: "/images/gallery/img7.webp", alt: "image", orientation: "horizontal" },
+    { src: "/images/gallery/img8.webp", alt: "image", orientation: "horizontal" },
+    { src: "/images/gallery/img9.webp", alt: "image", orientation: "horizontal" },
+    { src: "/images/gallery/img10.webp", alt: "image", orientation: "horizontal" },
   ],
 };
 
