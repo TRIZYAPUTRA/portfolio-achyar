@@ -8,7 +8,8 @@ const person: Person = {
   role: "Software Engineer, Web Developer, Data Analyst",
   avatar: "/images/avatar.webp",
   email: "achyartrizyaputra@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  location: "Asia/Jakarta", // valid IANA timezone used for clock/time display
+  locationLabel: "Lamongan, Indonesia",
   languages: [ "Bahasa Indonesia", "English"], // optional: Leave the array empty if you don't want to display languages
   locale: "en", // BCP 47 language tafavicong for the HTML lang attribute, e.g., 'en', 'ja', 'zh-TW'
 };
@@ -40,12 +41,6 @@ const social: Social = [
     icon: "instagram",
     link: "https://www.instagram.com/iam_zilxvx/",
     essential: false,
-  },
-  {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
-    essential: true,
   },
   {
     name: "Email",
@@ -86,7 +81,7 @@ const about: About = {
   path: "/about",
   label: "About",
   title: `About – ${person.name}`,
-  description: `Meet ${person.name}, ${person.role} from ${person.location}`,
+  description: `Meet ${person.name}, ${person.role} from ${person.locationLabel ?? person.location}`,
   tableOfContent: {
     display: true,
     subItems: false,
